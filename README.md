@@ -44,7 +44,13 @@ Closure describes where you can access variables/functions. If you declare a var
 
 4. Describe the four rules of the 'this' keyword.
 
+Window/Global object binding. When in the global scope, this will refer to the window.
 
+Implicit Binding: whenever a preceding dot calls a function, the object before the dot is this.
+
+New Binding: Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+
+Explicit binding: Whenever using call or apply method, this is explicitly defined.
 
 5. Why do we need super() in an extended class?
 
