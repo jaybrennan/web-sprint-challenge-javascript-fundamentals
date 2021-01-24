@@ -27,13 +27,28 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach exectures a provided function once for each array element. 
+
+.map creates a new array with the results of a called function on every element in the calling array.
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function is a function that can accept another function as an argument/parameter.
+
+Callbacks are functions that are passed into the higher order function.
+
 
 3. What is closure?
 
+Closure describes where you can access variables/functions. If you declare a variable on the global scope it will be accessible throughout the entire program. If you declare a variable within a function it will only be available within that function block.
+
 4. Describe the four rules of the 'this' keyword.
 
+
+
 5. Why do we need super() in an extended class?
+
+Super is used to pass props from the parent to the constructor function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
